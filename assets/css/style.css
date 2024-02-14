@@ -1699,6 +1699,10 @@ section.padding-60 {
   padding-bottom: 20px;
 }
 
+.content{
+  text-align: justify;
+}
+
 .mt-4.mb-0{
   display: -webkit-box;
   -webkit-line-clamp: 2;
