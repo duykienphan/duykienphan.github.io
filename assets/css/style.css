@@ -1754,6 +1754,13 @@ section.padding-60 {
 #footer-text{
   line-height: 0.5rem;
 }
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  #footer-text {
+    font-size: 10px;
+    line-height: 0.1rem; /* Adjust the line height for mobile devices */
+  }
+}
 
 .pc-avatar {
   border-radius: 10px;
