@@ -1714,13 +1714,17 @@ section.padding-60 {
   height:56px;
 }
 .mt-4.mb-0:hover {
-  max-height: calc(1.4rem*4);
+  -webkit-line-clamp: unset;
+  max-height: unset; /* Remove max-height constraint */
+  overflow: visible; /* Allow overflow to show all text */
+  text-overflow: initial;
   white-space: normal;
-  overflow: visible;
-  text-overflow: clip;
   height:calc(1.4rem*4);
 }
 .mt-3.mb-0:hover {
+  -webkit-line-clamp: unset;
+  max-height: unset; /* Remove max-height constraint */
+  overflow: visible; /* Allow overflow to show all text */
   max-height: calc(1.4rem*4);
   white-space: normal;
   overflow: visible;
