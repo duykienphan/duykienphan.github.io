@@ -2,7 +2,7 @@ from PIL import Image
 import os
 
 # Đường dẫn thư mục gốc và thư mục chuyển đổi
-input_dir = r"G:\Other computers\My Laptop\Kien Phan\University\Portfolio Website\duykienphan.github.io\assets\img"  # Thư mục gốc
+input_dir = r"D:\temp"  # Thư mục gốc
 output_dir = r"D:\temp\projects_Img"  # Thư mục chuyển đổi
 
 # Tạo thư mục output nếu chưa có
